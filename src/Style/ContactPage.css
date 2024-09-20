@@ -1,0 +1,47 @@
+.contact-welcome{
+    height: 300px;;
+   
+    background-color: #0e2c60;
+}
+.contact-help{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   color: rgb(253, 242, 180);
+   text-shadow: 1px 1px 0 rgb(83 219 31 / 50%);
+   font-family: var(--lwc-fontFamilyHeader,Helvetica);
+   font-size: 1.5rem;
+   font-weight: inherit;
+}
+.contact-help-content{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0);
+    font-size: 3.5rem;
+   line-height: 1.1;
+   margin-top: 12px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.contact-foot{
+    color: #595959;
+    font-size: 18px;
+    word-wrap: break-word;
+}
+.con-bu{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: '#505050';
+    border-radius: 4px;
+    background-color: blue;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    
+}

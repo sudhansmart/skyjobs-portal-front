@@ -1,0 +1,226 @@
+.candidate-main{
+    margin:0px 0px 20px 20px;
+    width: 100%;
+    background-color: #ffff;
+    border-radius: 5px;
+    box-shadow: 1px 3px 6px #b7b7b7;
+}
+.search-icon{
+  font-size: 42px;
+  padding: 0px 8px;
+  color: white;
+  cursor: pointer;
+  background-color: #42858C;
+ 
+}
+.no-result{
+  padding: 2%;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: 700;
+    color: #42858C;
+}
+.search-icon:hover .glass-icon{
+    scale: 0.8;
+    transition: 1s ease-in-out;
+}
+.searchbarset{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 50px;
+  border: #42858C solid 1px;
+    overflow: hidden;
+    box-shadow: #261919a8 2px 3px 15px 1px ;
+}
+.searchinput {
+  border: white solid 1px !important;
+  box-shadow: none !important;
+}
+.searchinput:focus {
+  border: white solid 1px !important;
+  box-shadow: none !important;
+}
+.candidate-name{
+    font-size: xxx-large;
+    font-weight: 600;
+    color: #4d4d4d;
+}
+.candidate-email{
+    color: #42858C;
+}
+.candidate-job{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 36px;
+    top: 48px;
+    left: calc(50% - 334.5px);
+    color: #ff9b27;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 209;
+}
+.candidate-loc{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+    height: 26px;
+    top: 79px;
+    left: calc(50% - 334.5px);
+    color: #4d4d4d;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 210;
+}
+.button-frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 211px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #000000;
+    z-index: 229;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .down-arrow {
+    color: #2196f3;
+    width: 30px;
+    height: 30px;
+    z-index: 230;
+  }
+  .download-resume {
+    height: 24px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    z-index: 231;
+  }
+.experience {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 25px;
+    color: #7a7878;
+    font-family: Poppins, var(--default-font-family);
+    font-size:23px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 213;
+  }
+
+  .years {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+   
+    height: 21px;
+    top: 58px;
+    left: 1065px;
+    color: #7a7878;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 214;
+  }
+  .datae{
+    font-size: large;
+    width:40%;
+  
+  }
+  .skill1{
+    width:40%;
+  }
+  .skill-items{
+    border: 1.5px solid #484545;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 8px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 25px;
+  }
+ 
+@media (max-width:768px) {
+    .candidate-data{
+      font-size: 14px;
+    }
+    .candidate-name{
+        font-size: x-large;
+
+    }
+    .candidate-job{
+        font-size: 16px;
+     
+    }
+    .candidate-email{
+    font-size: 12px;
+    }
+   
+    .filterbtn{
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000; 
+      width: auto;
+      background-color: #0000009c;
+      color: aliceblue;
+       border-radius: 50% ;
+       padding: 10px;
+    }
+    .filter-icon{
+      height: 40px;
+    }
+    .hidefilter{
+      display: none;
+    }
+    .no-result {
+      padding: 7%;
+      font-size: 18px;
+    }
+      .searchbarset {
+        height: 45px;
+        width: 80%;
+      }
+      .search-icon {
+        font-size: 30px;
+      }
+}
+
+.ellipse-9 {
+    width: 150px;
+    height: 150px;
+    top: 7px;
+    left: 50%;
+    background: url(../assets/Images/admin/user.png)
+      no-repeat center;
+    background-size: cover;
+    /* transform: translate(-317.5%, 0); */
+    z-index: 207;
+    border-radius: 50%;
+  }
+  
+  

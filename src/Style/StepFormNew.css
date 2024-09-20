@@ -1,0 +1,63 @@
+.stepnew-main{
+    /* height:80vh; */
+    background: rgb(0,61,192);
+    background-color: linear-gradient(126deg, rgba(0,61,192,1) 38%, rgba(0,44,138,1) 51%, rgba(0,31,97,1) 62%);;
+    display: flex;
+}
+.lefthalf{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+    width: 50%;
+}
+.righthalf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 50%;
+    margin: 2% 0;
+    padding: 3%;
+    border-radius: 80px 0px 0px 80px;
+    box-shadow: -1px 2px 11px #2a0795;;
+}
+.left-imge{
+    height: 450px;
+    padding: 2%;
+}
+
+/* Ensure the path to your CSS file is correct */
+.number-input::-webkit-outer-spin-button,
+.number-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+.color-text{
+    color: #2a0795;
+}
+.addspace{
+    padding: 2%;
+}
+@media screen and (max-width: 470px) {
+    .left-imge{
+       display: none;  
+    }
+    .righthalf{
+        width: 100%;    
+        border-radius: 10px;
+       
+    }
+    .stepnew-main{ 
+        display: flex;
+        flex-direction: column;
+       padding: 1%;
+     }
+     .lefthalf{
+        width: 100%;
+     }
+} 

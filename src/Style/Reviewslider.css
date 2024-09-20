@@ -1,0 +1,132 @@
+
+
+ /* General styles */
+ .testtitle{
+  color: #222;
+  font-size: 2.7em;
+}
+
+.testmain{
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.contents {
+  flex: 0 0 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.test-body {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 1.25rem;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 5px 4px 10px 0px #b6b6b666;
+}
+
+.item {
+  display: contents;
+  text-align: center;
+}
+
+
+
+.imagedata{
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reviewname{
+  color: blue;
+  font-size: 1.75rem;
+}
+.reviewername{
+  color: whitesmoke;
+  font-size: 6.75rem;
+  padding: 0;
+}
+
+
+
+.reviewcontent {
+  font-size: 1rem;
+  color: #6c757d;
+}
+.scroll-container {
+  display: flex;
+  justify-content: space-evenly;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+/* Mobile responsiveness */
+@media (max-width: 478px) {
+  .contents {
+    flex: 0 0 80%;
+    max-width: 80%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+ 
+  .test-body {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 2px 2px #b6b6b6;
+  }
+
+  .imagedata {
+    width: 80px;
+    height: 80px;
+    font-size: 32px;
+    margin-right: 10px;
+  }
+
+  .reviewername {
+    font-size: 3.25rem;
+  }
+
+  .reviewname {
+    font-size: 1rem;
+  }
+
+  .reviewcontent {
+    font-size: 0.875rem;
+  }
+  .scroll-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    justify-content: flex-start;
+  }
+}
+
+
+
+.scroll-container::-webkit-scrollbar {
+  display: none; 
+}
+
+.scroll-container > .contents {
+  scroll-snap-align: start;
+}
+

@@ -1,0 +1,17 @@
+.images{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../assets/Images/resume.jpg)
+}
+.image-overlays{
+    width: 100%;
+    height: 100%;
+    background-color: #0e0d0d59;
+}
+.samp{
+    position: relative;
+    top: 208px;
+}

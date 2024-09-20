@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Great+Vibes&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+.recent-bg{
+       background-color:#c4d3d1;
+}
+.recent-job{
+   
+   background-color: white;
+    position: relative;
+    /* left: 100px; */
+ margin-top: 50px;
+ border-radius: 10px;
+}
+.job-hiring{
+    font-family: "Candal", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: #9d2b6b;
+    background-color: #fceef4;
+    width: 170px;
+    border-radius: 3px;
+   box-sizing: content-box;
+}
+.job-title{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -0.06px;
+    letter-spacing: 600;
+}
+.job-company{
+    align-items: center;
+    font-size: .975rem;
+    font-weight: 600;
+    line-height: 1rem;
+    color: #2d2d2d;
+    font-family: 'Noto Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.job-skills{
+    font-family: 'Noto Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    line-height: 1.25rem;
+    font-size: .875rem;
+    color: #6f6f6f;
+}
+.dot-job{
+    list-style-type: circle;
+}
+/* .job-moreinfo{
+    font-size: 0.8rem;
+    background-color: #2557a7;
+    color: white;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 15px;
+   font-family: "Indeed Sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, "Liberation Sans", Roboto, Noto, sans-serif;
+   line-height: 1.5;
+  
+} */
+.star-clr{
+    color: #6f6f6f;
+}
+#job-star{
+  color: #9FA3A8;
+  border-radius: 80px;
+}
+.job-count{
+    background-color: #F8E0A0;
+    color: #9d2b6b;
+    user-select: none;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+  
+    font-family: "Indeed Sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, "Liberation Sans", Roboto, Noto, sans-serif;
+}
+
+.recent-title{
+    font-size: xx-large;
+    font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}

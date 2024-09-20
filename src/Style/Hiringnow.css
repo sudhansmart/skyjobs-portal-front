@@ -1,0 +1,69 @@
+#hiring{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+}
+#bg-size{
+width: 233.333px;
+border-radius: 25px;
+}
+#bg-color:hover{
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-radius: 20px;
+}
+#btn-apply{
+   background: #EDF4FF;
+   border-radius: 50px;
+   font-weight: 700;
+   font-size: 12px;
+   line-height:20px;
+   color: var(--P100, #275DF5);
+
+}
+#bg-color:hover{
+  
+}
+#bgg{
+    transition: 1s;
+    display: block;
+}
+#bgg:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.it-domain{
+    font-size: 17px;
+    font-family: "Satoshi";
+    font-weight:900;
+}
+.back-color{
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 32, 91, 0.03);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #1B2437;
+    font-family: "Roboto", sans-serif;
+    border-radius: 10px;
+}
+#job-loc{
+ font-size: 11px;
+ font-family: "Roboto", sans-serif;
+}
+.job-ctc{
+    color: #1f662c;
+    background-color: #e4f7e6;
+    border-radius: .25rem;
+ /* width: fit-content; */
+/* margin: 0% 24%; */
+
+
+
+}
+.card-ctc{
+    font-size: 1.15rem;
+
+}

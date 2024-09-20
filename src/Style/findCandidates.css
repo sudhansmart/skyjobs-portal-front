@@ -1,0 +1,12 @@
+.top-section{
+    height: 200px;
+    background: rgb(4,56,168);
+    background: linear-gradient(126deg, rgba(4,56,168,1) 34%, rgba(24,49,105,1) 51%, rgba(0,28,87,1) 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-section-top{
+        display: flex;
+       
+}

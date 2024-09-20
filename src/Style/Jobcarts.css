@@ -1,0 +1,102 @@
+.overallbox{
+    padding: 1.5%;
+    border:#f7f7f8 solid 1px;
+    margin: 2%;
+    border-radius: 25px;
+    box-shadow: 1px 1px 6px 0px rgba(168, 153, 168, 1);
+}
+
+
+.job-time-types{
+  
+   background-color: orange;
+   width: 70px;
+  margin-left: 10px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 10px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+ 
+}
+.it-domains{
+    font-size: 24px;
+    font-family: "Indeed Sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, "Liberation Sans", Roboto, Noto, sans-serif;
+color: #0b0bfe;
+font-weight: 600;
+  font-style: normal;
+}
+.data-position{
+    font-size: 19px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+  font-style: normal;
+  /* color: #96589D; */
+}
+.data-exp{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-weight: 600;
+}
+.main1{
+    display: flex;
+    flex-wrap: wrap
+}
+.data-location-type{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+.jobs-ctc{
+    color: orange;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.view-job{
+    font-size: 12px;
+    color: white;
+    font-style:oblique;
+    box-shadow: 1px 1px 6px 0px rgba(168, 153, 168, 1);
+    background-color:#0000feb8;
+cursor: pointer;
+border-radius: 10px;
+list-style: none;
+padding: 2px;
+letter-spacing: normal;
+margin: 0;
+padding: 0;
+}
+.view-job:hover{
+    background-color: #cdfdfd;
+    color: rgb(36, 128, 0);
+   
+}
+
+.newmaincard{
+    border: 2px solid #f7f7f8;
+    border-radius: 10px;
+    padding: 1%;
+    box-shadow: 1px 1px 6px 0px rgba(168, 153, 168, 1);
+    margin: 5px;
+     width: 24% !important;
+
+}
+
+@media screen and (max-width: 470px) {
+    .main1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100% !important;
+    }
+    .newmaincard {
+        width: 100% !important;
+    }
+    
+}

@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+body.overlays {
+    overflow: hidden;
+  }
+
+.image{
+    width: 100%;
+    background-size: cover ;
+    background: rgb(4,56,168);
+    background: linear-gradient(126deg, rgba(4,56,168,1) 34%, rgba(24,49,105,1) 51%, rgba(0,28,87,1) 63%);
+
+}
+.headersec{
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.top-headerword{
+    font-size: 2rem;
+    color: white;
+}
+
+.banner-button{
+    background-color: orange !important;
+    border-radius: 20px !important;
+    font-weight: 500 !important;
+    border: none;
+    color: white !important;
+}
+.banner-button:hover{
+    background-color: rgb(255, 175, 2) !important;
+    border-radius: 20px !important;
+}
+.hearderword{
+    color: white;
+    font-size: 56px;
+    font-weight: 700;
+}
+.hearderwordsec{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hearderwords{
+    font-size: 2.5rem;
+    color: #ff8d35;
+}
+.headerimg{
+    width: 50%;
+}
+@media (max-width:480px) {
+    .headerimg{
+        width: 100%;
+    }
+    .headersec{
+        padding: 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .hearderword{
+        color: white;
+        font-size: 36px;
+        font-weight: 700;
+    }
+    .top-headerword{
+        font-size: 1rem;
+        color: white;
+    }
+    .hearderwords{
+        font-size: 1.25rem;
+        color: #ff8d35;
+    }
+}
+

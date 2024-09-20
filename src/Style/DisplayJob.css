@@ -1,0 +1,62 @@
+.displayjob-main{
+    width: 68%
+}
+.displayjob-top{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.displayjob-title{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.jobdisplay{
+    background-color: #f8f9fa;
+    display: flex;
+    padding: 3rem;
+}
+.jobdisplay1{
+    
+    display: flex;
+    padding: 1.5rem;
+}
+  
+   
+.backbtn{
+   display: none;
+}
+.top-tag{
+
+    background-color: #3da57c
+}
+.displayjob-content{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+@media (max-width:768px) {
+    .displayjob-title{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .displayjob-main{
+      padding: 0px;
+    width: 100%
+   }
+   .jobdisplay{
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+}
+.backbtn{
+    padding: 3px !important;
+    margin-left: 3%;
+    color: black !important;
+    background-color: #fff !important;
+ }
+    
+}
+
+.apply-text{
+    color: darkgrey;
+    font-size: larger;
+    font-weight: 600;
+}

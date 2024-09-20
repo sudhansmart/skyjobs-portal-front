@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Great+Vibes&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans+Sora+Sompeng:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+.profile{
+    margin: 3%;
+    border-radius: 10px;
+    border: rgb(244, 242, 242) solid 1px;
+    width: 23%;
+    height: fit-content;
+    box-shadow: 1px 1px 6px 0px rgb(230, 226, 230);
+}
+.experience{
+    margin: 3%;
+}
+.top-sec{
+    height: 80px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #4c72d3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    box-shadow: 0px 1px 4px 0px rgb(73, 73, 73);
+}
+.edit-icon{
+    color: #4c72d3;
+    background-color: white;
+    padding: 7px;
+    border-radius: 30px;
+}
+.propic{
+    width: 180px;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;  
+}
+.propic1{
+  width: 80% !important;;
+  height: 250px !important;
+  border-radius: 50%;
+  position: relative;
+  top: -50px;  
+}
+.pro-text{
+   font-size:1rem ;
+   color: #6a6868;
+}
+.pro-name{
+    font-size: 25px;
+    font-weight: 600;
+}
+.pro-desig{
+    font-weight: 600;
+}
+.pro-icons{
+    width: 30px;
+}
+.pro-details{
+    font-size: small;
+    font-weight: 600;
+    padding: 1rem;
+}
+.aboutme{
+    padding: 2%;
+    border: #bfbfbf solid 1px;
+    border-radius: 10px;
+    box-shadow: 0px 1.5px 2px 0px #bfbfbf;
+
+}
+.sidesec-main{
+    width: 77%;
+    padding: 3% 2% 0px 0px;
+}
+.abouttxt{
+    font-size: 25px;
+    font-weight: 600;
+}
+.keytitle{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+.profile-summary{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #878787;
+  font-size: 20px;
+  word-wrap: break-word; 
+  overflow-wrap: break-word; 
+  white-space: pre-wrap;
+}
+.profile-summary::first-letter {
+    margin-left: 5.5rem;
+  }
+.resume{
+    height: 100px;
+    width: 100%;
+    background-color: #4c72d3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cvpic{
+    height: 100px ;
+}
+.upload-profilecv{
+    
+    
+    cursor: pointer;
+    font-weight: 100;
+  }
+  .pro-cv{
+    color: #4c72d3 !important;
+    background-color: whitesmoke !important;
+  }
+
+  .profile-pdf{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffff;
+    font-family: Roboto,sans-serif;
+}
+.profile-pdfdate{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffff;
+    font-family: Roboto,sans-serif;
+}
+.actionbtn{
+  font-size: 22px;
+  margin: 5px;
+}
+.resumepart-1{
+    display: flex;
+    align-items: center;
+}
+.keyskill-main{
+ 
+    border: #bfbfbf solid 1px;
+    border-radius: 10px;
+    box-shadow: 0px 1.5px 2px 0px #bfbfbf; 
+
+}
+.keyskills{
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 1.5px 2px 0px #bfbfbf; 
+    background-color: #4c72d3;
+    height: 60px;
+    padding: 2%;
+}
+.profile-jobskill {
+  padding: 0.5rem;
+}
+.profilekey .profile-jobskill{
+    background: #fff;
+    padding: 4.5px 8px;
+    border: 1px solid var(--N400);
+    border-radius: 50px;
+    background-color: #4c72d3;
+    color: #fff;
+    max-width: 515px;
+    font-family: Roboto,sans-serif ;
+    }
+    .edit-profile{
+        font-size: 16px;
+        cursor: pointer;
+        padding: 0 12px;
+        text-align: center;
+        color: #717b9e;
+    }
+     
+    .edit-profile-emp{
+        font-size: 16px;
+        cursor: pointer;
+        padding: 0 12px;
+        text-align: center;
+        color: #717b9e;
+    }
+    .edit-profile-blue{
+        font-size: 16px;
+        cursor: pointer;
+        padding: 0 12px;
+        text-align: center;
+        color: #ffff;
+    }
+    .write-education{
+        font-family: Roboto,sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        color: #ffff;
+        cursor: pointer;
+    } 
+
+    .degree-employment{
+        display: flex;
+        font-size: xx-large;
+        line-height:18px ;
+        font-weight: 700;
+        color: #121224;
+        font-family: Roboto,sans-serif;
+    }
+    .company-name{
+           font-size: large;
+           color: navy;
+    }
+    .edc-clg{
+        word-wrap: break-word;
+        font-size: 16px;
+        font-family: Roboto,sans-serif;
+        font-weight: 500;
+        line-height: 18px;
+    
+    }
+    .degree-education{
+        font-size: large;
+        line-height:18px ;
+        font-weight: 700;
+        color: #121224;
+        font-family: Roboto,sans-serif;
+    }
+    .profile-img .file {
+      position: relative;
+      overflow: hidden;
+      margin-top: -20%;
+      width: 70%;
+      border: none;
+      border-radius: 0;
+      font-size: 15px;
+      background: #212529b8;
+  }
+  .imagecont{
+    height: 100%;
+  }
+  .imagesofPropic{
+    border-radius: 50%;
+  }
+
+    .containers1{
+        display:flex;
+        height:100vh;
+        width:100%;
+        justify-content:center;
+        align-items:center;
+      }
+      .loading-wave {
+        width: 300px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
+ 
+      
+      .loading-bar {
+        width: 20px;
+        height: 10px;
+        margin: 0 5px;
+        background-color: #3498db;
+        border-radius: 5px;
+        animation: loading-wave-animation 1s ease-in-out infinite;
+      }
+      
+      .loading-bar:nth-child(2) {
+        animation-delay: 0.1s;
+      }
+      
+      .loading-bar:nth-child(3) {
+        animation-delay: 0.2s;
+      }
+      
+      .loading-bar:nth-child(4) {
+        animation-delay: 0.3s;
+      }
+      .profilekey{
+        padding: 0.5rem;
+      }
+      .profile2{
+        padding: 1.5rem;
+      }
+      
+      @keyframes loading-wave-animation {
+        0% {
+          height: 10px;
+        }
+      
+        50% {
+          height: 50px;
+        }
+      
+        100% {
+          height: 10px;
+        }
+      }
+
+      @media   screen and (max-width: 470px) {
+        .propic{
+            width: 80px;
+            top: -20px;
+        }
+        .propic1{
+          width: 120px !important;
+          height: 120px !important;
+          top: -20px;
+      }
+        .top-sec{
+            height: 45px;
+            padding-right: 3px;
+        }
+        .edit-icon{
+            padding: 3px;
+        }
+        .pro-name {
+            font-size: 12px;
+            font-weight: 700;
+        }
+        .profile{
+            margin: 1%;
+            width: 40%;
+        }
+        .pro-desig{
+            font-size: 10px;
+        }
+        .pro-icons {
+            width: 14px;
+        }
+        .pro-text {
+            font-size: 9px;
+            color: #6a6868;
+        }
+        .pro-details{
+            padding: 2px ;
+        }
+        .sidesec-main {
+            width: 60%;
+            padding: 1% 2% 0px 0px;
+        }
+        .profile-summary {
+            font-size: 9px;
+        }
+        .abouttxt {
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .edit-profile {
+            font-size: 12px;
+        }
+        .profile-img .file {
+          font-size: 11px;
+          padding: 2px;
+          margin-top: -32%;
+        }
+        .cvpic {
+            height: 40px;
+        }
+        .profile-img .file input {
+          cursor: pointer;
+        }
+        .profile-pdfdate {
+            font-size: 6px;
+        }
+        .pro-cv {
+            font-size: 9px !important;
+            padding: 3px !important;
+        }
+        .format{
+            margin: 0px !important;
+            font-size: 6px;
+        }
+        .cvpic{
+            display: none;
+        }
+        .actionbtn{
+          font-size: 12px;
+          margin: 5px;
+        }
+        .keytitle {
+            font-size: 13px;
+        }
+        .edit-profile-blue {
+            font-size: 10px;
+        }
+       
+        .keyskill-main {
+            display: flex;
+            flex-wrap: wrap;
+          }
+          
+          .keyskills {
+            width: 100%;
+            height: 30px;
+          }
+          
+          .mainkeys {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 2px !important;
+          }
+          
+          .profilekey {
+              padding: 0.05rem;
+          }
+          
+          .profile-jobskill {
+            font-size: 9px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            padding: 1.5px 4px !important;
+            display: inline-block;
+          }
+
+          .write-education {
+            font-size: 10px;
+          }
+          .degree-employment {
+            font-size: 12px;
+            display: flex;
+            justify-content: space-between;
+          }
+          .degree-education{
+            font-size: 12px;
+            
+          }
+          .profile2
+          {
+            margin: 5px !important;
+            padding: 0px;
+            width: 100%;
+          }
+          .company-name{
+            font-size: 9px;
+          }
+          .edit-profile-emp{
+            font-size: 12px;
+            padding-right:0px; 
+          }
+          .emp-title{
+           margin: 0px;
+          }
+          .edc-clg{
+            font-size: 10px;
+            margin: 0px;
+          }
+          table{
+            margin: 3px;
+          }
+          th{
+            font-size: 12px;
+          }
+          td {
+            font-size: 10px;
+          }
+         .checkbox{
+            height: 8px;
+         }
+         .profile-pdf {
+            font-size: 8px;
+          }
+         .mobbtn{
+            padding: 2px !important;
+            font-size: 10px !important;
+         }
+         .profilekey .profile-jobskill {
+           
+            margin: 0px!important;
+         }
+         .contcv{
+          padding: 2%;
+          height: 100%;
+          
+         }
+      }
+      

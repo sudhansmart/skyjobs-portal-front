@@ -1,0 +1,139 @@
+/* Your existing CSS code */
+/* Prevent background scrolling */
+/* body.overlay {
+  overflow: hidden;
+} */
+
+.option{
+  background-color: #0e0f0f73;
+  padding: 3%;
+  border-radius: 10px;
+}
+.popScroll {
+  overflow: hidden;
+    position: fixed;
+    z-index: 10;
+    top: 15%;
+    left: 0;
+    display: table;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .popup {
+    display: flex;
+    align-content: space-around;
+    padding: 2%;
+    z-index: 10;
+    width: 450px;
+    height: 480px;
+    position: relative;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    background: rgb(4,56,168);
+    background: linear-gradient(126deg, rgba(4,56,168,1) 34%, rgba(24,49,105,1) 51%, rgba(0,28,87,1) 63%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .18);
+    transform-origin: top center;
+    animation: iconosani 1.2s forwards;
+  }
+  
+  @keyframes iconosani {
+    0% {
+      transform: perspective(800px) rotateX(-90deg);
+      opacity: 1;
+    }
+    40% {
+      transform: perspective(800px) rotateX(30deg);
+      opacity: 1;
+    }
+    70% {
+      transform: perspective(800px) rotateX(-10deg);
+    }
+    100% {
+      transform: perspective(800px) rotateX(0deg);
+      opacity: 1;
+    }
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* Add the rest of your CSS here */
+  .ribbon {
+    position: absolute;
+    z-index: 100;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+  }
+  
+  .ribbon.top-left {
+    top: -2.6px;
+    left: -5px;
+  }
+  
+  .ribbon.top-left.ribbon-primary > small {
+    zoom: 1;
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF428BCA', endColorstr='#FF2A6496');
+    background-image: -moz-linear-gradient(top, #428bca 0%, #2a6496 100%);
+    background-image: -webkit-linear-gradient(top, #428bca 0%, #2a6496 100%);
+    background-image: linear-gradient(to bottom, #428bca 0%, #2a6496 100%);
+    position: absolute;
+    display: block;
+    width: 100%;
+    padding: 8px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 65%;
+    color: white;
+    background-color: #428bca;
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -moz-box-shadow: 0 3px 6px -3px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 3px 6px -3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 6px -3px rgba(0, 0, 0, 0.5);
+    top: 16px;
+    left: -27px;
+  }
+  .ribbon.top-left.ribbon-primary > small:before, .ribbon.top-left.ribbon-primary > small:after {
+    position: absolute;
+    content: " ";
+  }
+  .ribbon.top-left.ribbon-primary > small:before {
+    left: 0;
+  }
+  .ribbon.top-left.ribbon-primary > small:after {
+    right: 0;
+  }
+  .ribbon.top-left.ribbon-primary > small:before, .ribbon.top-left.ribbon-primary > small:after {
+    bottom: -3px;
+    border-top: 3px solid #0e2132;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+  }
+
+ 
+  .popup-title {
+    color: white;
+    font-size: 27px;
+  }
+  .popup-text{
+    color: burlywood;
+  }
+
+  @media (max-width :478px) {
+    .popup-title {
+      color: white;
+      font-size: 21px;
+    }  
+    .popup {
+      width: 300px;
+      height: 340px;
+    }
+  }

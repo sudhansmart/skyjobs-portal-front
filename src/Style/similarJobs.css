@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Great+Vibes&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.sim-jobs{
+    width: 100%;
+    background-color: aliceblue;
+    padding: 3rem;
+}
+.sim-jobs-title{
+    font-size: xx-large;
+    font-weight: 600;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+.sim-jobs-role{
+    font-size: x-large;
+}
+.sim-jobs-icon{
+    font-size: xx-large;
+}
+.comp-name{
+    font-size: medium;
+}
+@media (max-width:768px) {
+    .sim-jobs-role{
+        font-size: large;
+    }
+    .comp-name{
+        font-size: small;
+    }
+    .sim-jobs{
+        padding: 1.5rem;
+    }
+}

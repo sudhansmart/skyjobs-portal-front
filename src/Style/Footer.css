@@ -1,0 +1,149 @@
+.footer-main{
+    height: 400px;
+    background-color: #4975d6;
+    
+   
+}
+.bottom-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.footer-main1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem;
+}
+.logo-text{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+}
+.logosky{
+  width: 315px;
+}
+.footerlink{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-bottom: 10%;
+}
+.footerlink :hover{
+    color: aquamarine;
+    cursor: pointer; ;
+}
+.footerlink1{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-word{
+    font-size: 38px;
+    color: white;
+    font-weight: 600;
+}
+.footer-button{
+    background-color: orange !important;
+    border-radius: 20px !important;
+    font-weight: 500 !important;
+}
+.footer-button:hover{
+    background-color: rgb(255, 175, 2) !important;
+    border-radius: 20px !important;
+}
+.footericon{
+    font-size: 2.5rem;
+    color: white;
+    margin-right: 10px;
+}
+.follow-logo{
+    background-color: white;
+    padding: 6px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 6px 1px rgb(86 84 84);
+    border-radius: 50%;
+    height: 50px;
+}
+.footer-text{
+    text-align: center;
+    color: white;
+}
+.rightarrow{
+    color: white !important;
+}
+@media (max-width: 480px) {
+    .footer-main{
+        height: 260px;
+        background-color: #4975d6;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;   
+    }
+    .footer-main1{
+        padding: 1%;
+    }
+    .logosky{
+        width: 95%;
+      }
+      .logo-text{
+        color: white;
+        font-size: 11px;
+        text-align: center;
+        font-weight: 500;
+    }
+    .footer-word{
+        font-size: 14px;
+        color: white;
+        font-weight: 600;
+    }
+    .follow-logo{
+        background-color: white;
+        padding: 2px;
+        margin-right: 4px;
+        box-shadow: 0px 0px 6px 1px rgb(86 84 84);
+        border-radius: 50%;
+        height: 20px;
+    }
+    .footerlink{
+        color: white;
+        font-size: 11px ;    
+        text-decoration: none;
+    }
+    .footer-button{
+        width: 100px;
+        font-size: 9px !important;
+    }
+    .text-light{
+        font-size: 10px;
+    }
+    .footer-logo{
+        width: 40%;
+    }
+    .footerlink1{
+        color: white;
+        font-size: 9px;
+        text-decoration: none;
+    }
+    .text-light{
+      margin: 0px;
+    }
+    .bottom-section{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: end;
+    }
+    .footer-text{
+        text-align: center;
+        color: white;
+        font-size: 11px;
+    }
+    
+}

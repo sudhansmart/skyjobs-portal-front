@@ -1,0 +1,9 @@
+.job{
+    border-radius: 10px;
+    }
+    .card:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    }
+
